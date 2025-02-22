@@ -9,7 +9,7 @@ $ sudo docker build -t ubuntu_sqlite  .
 $ sudo docker container run --rm -ti ubuntu_sqlite bash
 $ sudo docker ps -a
 
-$ cd /home/geiser/Documents/GitHub/docker/node/reactn/rnd-sqlite/docker
+$ cd ~/Documents/GitHub/docker/node/reactn/rnd-sqlite/docker
 $ chmod 777 -Rvf docker/
 $ sudo docker run -it -v "$(pwd):/app" ubuntu_sqlite bash
 
